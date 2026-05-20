@@ -1,0 +1,8 @@
+{
+<<<<<<< HEAD
+    "dbt.queryLimit": 500,
+=======
+    "dbt.queryLimit": 100,
+>>>>>>> feature_selva
+    "dbt.perspectiveTheme": "Pro Dark"
+}

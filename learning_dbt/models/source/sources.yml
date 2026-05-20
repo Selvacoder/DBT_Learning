@@ -1,0 +1,16 @@
+sources:
+  - name: source
+    database: learning-dbt 
+    schema: source
+    tables:
+      - name: dim_customer
+      - name: dim_date
+      - name: dim_product
+      - name: dim_store
+      - name: fact_sales
+<<<<<<< HEAD
+      - name: fact_returns
+=======
+      - name: fact_returns
+      - name: items
+>>>>>>> feature_selva
