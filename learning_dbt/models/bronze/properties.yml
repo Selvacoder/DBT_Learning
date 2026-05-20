@@ -6,10 +6,6 @@ models:
         materialized: view
 
   - name: bronze_product
-<<<<<<< HEAD
-    config:
-      materialized: view
-=======
     config: 
       materialized: view
 
@@ -33,4 +29,3 @@ models:
         - name: store_name
           data_tests:
             - not_null
->>>>>>> feature_selva
