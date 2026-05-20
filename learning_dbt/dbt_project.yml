@@ -33,9 +33,7 @@ models:
   learning_dbt:
     # Config indicated by + and applies to all files under models/example/
     bronze:
-      +materialized: table 
-<<<<<<< HEAD
-=======
+      +materialized: table
       schema: bronze
     silver:
       +materialized: table
@@ -47,4 +45,4 @@ models:
 seeds:
   learning_dbt:
     +schema: bronze
->>>>>>> feature_selva
+
